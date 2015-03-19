@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+//Protyping the function so main knows about it
+void printSomething(int x);
+
+int main()
+{
+
+    //Calling the function
+    printSomething(20);
+
+    return 0;
+}
+void printSomething(int x){
+    cout << "Jesse's fav number is " << x << endl;
+}
