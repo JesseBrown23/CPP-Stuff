@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main()
+{
+    //throws time in for srand so that it is always changing
+    //to make the rand seem to be actually random
+    srand(time(0));
+
+    //loop 25 times printing 1-6 randomly
+    for(int x = 1; x < 25; x++){
+        cout << 1+(rand()%6) << endl;
+    }
+
+    return 0;
+}
