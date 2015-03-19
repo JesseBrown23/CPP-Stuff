@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+//Declaring the class
+class JessesClass{
+    //Access specifier
+    public:
+        void coolSaying(){
+            cout << "preaching to the choir" << endl;
+        }
+};
+
+int main()
+{
+    /*Creates object for JessesClass. This object acts as a 'key'
+    to know where to go. 'coolSaying' could be a function in multiple
+    classes but jessesObject.coolSaying() specifies that it is indeed this one*/
+    JessesClass jessesObject;
+    jessesObject.coolSaying();
+    
+    return 0;
+}
