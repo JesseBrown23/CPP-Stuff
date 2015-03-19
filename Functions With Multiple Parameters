@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+//Prototyping the function
+int addNumbers(int x, int y);
+
+int main()
+{
+    //Telling user the answer/values for x and y
+    cout << addNumbers(43, 86);
+    return 0;
+}
+int addNumbers(int x, int y){
+    //Doing the addition
+    int answer = x + y;
+    //Returns the answer to main
+    return answer;
+}
