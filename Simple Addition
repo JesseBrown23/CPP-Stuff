@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //Variables
+    int a;
+    int b;
+    int sum;
+
+    //Prompts user to enter a number
+    cout << "Enter a number: " << endl;
+    //Gives user a spot to enter a number and stores it in a
+    cin >> a;
+
+    //Same as above except stores in b
+    cout << "Enter a number: " << endl;
+    cin >> b;
+
+    //Adds two entered numbers
+    sum = a + b;
+
+    //Tells user the sum
+    cout << "The sum is: " << sum << endl;
+
+
+    return 0;
+}
