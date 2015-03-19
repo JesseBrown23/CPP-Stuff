@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+//When prototyping you can set variables equal to something
+//and if the user doesn't enter anything these will be the
+//default for them
+int volume(int l=1, int w=2, int h=3);
+
+int main()
+{
+    //since 5 is here it'll go to length but width will 
+    //stay 2 and height will stay 3.
+    cout << volume(5);
+
+    return 0;
+}
+
+int volume(int l, int w, int h){
+    return l*w*h;
+}
