@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int age;
+
+    cout << "How old are you?" << endl;
+    cin >> age;
+
+    switch(age){
+        case 16:
+            cout << "Get your license!!" << endl;
+            break;
+        case 18:
+            cout << "Buy some ciggarettes!!" << endl;
+            break;
+        case 21:
+            cout << "Buy some beer!!" << endl;
+            break;
+        default:
+            cout << "Sorry!!" << endl;
+    }
+
+    return 0;
+}
