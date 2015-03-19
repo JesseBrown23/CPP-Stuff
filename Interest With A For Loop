@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+    float totalMoneyMade;
+    float startedWith = 10000;
+    float interest = .03;
+
+    for(int day = 1; day <= 30; day ++){
+        //Formula for calculating interest rates
+        totalMoneyMade = startedWith * pow(1+interest, day);
+        cout << "Day: "<< day << " \n " << "Money made: " << totalMoneyMade << endl;
+    }
+
+    return 0;
+}
