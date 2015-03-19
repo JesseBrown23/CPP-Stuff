@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+//Protyping the function so main knows about it
+void printSomething();
+
+int main()
+{
+    //Calling the function
+    printSomething();
+
+    return 0;
+}
+void printSomething(){
+    cout << "The function was called successfully!" << endl;
+}
