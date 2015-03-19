@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+//Declaring the class
+class JessesClass{
+    public:
+        /*Constructors never have a return type so you
+        don't have to put int, etc.. Constructors are also
+        named as the class name ALWAYS. Usually used to
+        give variables a initial value*/
+        JessesClass(){
+            cout << "This will be done automatically when the object is created" << endl;
+        }
+};
+
+int main()
+{
+    /*When the object is created right here the
+    Constructor automatically is called. i.e.
+    you typically have to call functions in a
+    class like object.functionName.. well not
+    for constructors*/
+    JessesClass jo;
+
+    return 0;
+}
