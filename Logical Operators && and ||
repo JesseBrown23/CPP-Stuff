@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int age;
+    int money;
+
+    cout << "Enter your age: ";
+    cin >> age;
+
+    cout << "How much money do you have? ";
+    cin >> money;
+    
+    //&& means and, so both must be true (the lohical operator)
+    //also: || for or, 
+    if(age>21 && money>500){
+        cout << "You're allowed in the club" << endl;
+    }
+    
+    return 0;
+}
