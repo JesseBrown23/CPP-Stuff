@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+//Prototyping jesse
+void jesse();                       //This program will go through main,
+                                    //call on jesse, go through jesse,
+int main()                          //and since jesse calls jesse, this
+{                                   //will go until it crashes.
+    //Calls jesse
+    jesse();
+
+    return 0;
+}
+
+
+void jesse(){
+    //random number 0-10
+    cout << rand()%10;
+    //calls jesse
+    jesse();
+}
